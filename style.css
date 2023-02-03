@@ -52,11 +52,8 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    width: 100vw;
+    flex-direction: column;
+    height: 100vh;
   }
 
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(4) {
-    display: none;
-  }
 }
